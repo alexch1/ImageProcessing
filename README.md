@@ -1,13 +1,13 @@
 # ImageProcessing_ReflectionRemoval
 ##### Hoding my CA scripts
 
-*****************************************************************************************
-**                                         README                                     
-*****************************************************************************************
-**
-**	NOTE 1: Pls make sure that all the '.m' scripts are under a same directory.
-**	NOTE 2: You can add your own testing images under the path of /test_images;
-**              Please classify them into two classes, i.e., images for intrinsic 
+*****************************************************************************************<br />
+**                                         README                                        <br />
+*****************************************************************************************<br />
+**                                                                                       <br />
+**	NOTE 1: Pls make sure that all the '.m' scripts are under a same directory.          <br />
+**	NOTE 2: You can add your own testing images under the path of /test_images;          <br />
+**              Please classify them into two classes, i.e., images for intrinsic        <br />
 **              images decomposition purpose (under /test_images/intrinsic_images, 
 **              and should be 'png’ format) and images for reflection removal purpose
 **              (under /test_images/reflection_removal, and should be 'jpg' format).
