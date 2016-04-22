@@ -39,7 +39,7 @@ NOTE: Copied from MIT intrinsic image dataset.<br />
 <br />
 The code is under the 'MIT-intrinsic' folder.<br />
 The data are available at: <br />
-* http://people.csail.mit.edu/rgrosse/intrinsic/intrinsic-data.tar.gz<br />
+http://people.csail.mit.edu/rgrosse/intrinsic/intrinsic-data.tar.gz<br />
 <br />
 Unpack the tarballs and merge if necessary. The top-level folder, named<br />
 MIT-intrinsic by default, should contain the README, four python<br />
