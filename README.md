@@ -1,7 +1,6 @@
 # ImageProcessing_ReflectionRemoval
 ##### Hoding my CA scripts
 
-_________________________________________________________________________________________<br />
                                          README                                        <br />
 _________________________________________________________________________________________<br />
                                                                                        <br />
@@ -20,7 +19,6 @@ ________________________________________________________________________________
 	- 3) Run 'main.m', wait for 'ALL DONE' shown in the command window;<br />
 	- 4) Check the detailed results in 'results_log.txt' & 'results_images' folder.<br />
 <br />
-<br />
   Copyrights info:<br />
   1) This code is written by myself and it is adapted from algorithms published<br />
    	   in "Single Image Layer Separation using Relative Smoothness" (Y. Li et al.,<br />
@@ -30,22 +28,15 @@ ________________________________________________________________________________
    	   image dataset and from the testing dataset of " Exploiting Reflection Change <br />
    	   for Automatic Reflection Removal" (Y. Li et al., ICCV 2013).<br />
 <br />
-<br />
                                                                               CHI JI<br />
                                                                   E0001795@u.nus.edu<br />
 <br />
 _________________________________________________________________________________________<br />
-_________________________________________________________________________________________<br />
-<br />
-<br />
-<br />
-<br />
 <br />
                                       ATTACHMENT<br />
 _________________________________________________________________________________________<br />
 <br />
 NOTE: Copied from MIT intrinsic image dataset.<br />
-<br />
 <br />
 The code is under the 'MIT-intrinsic' folder.<br />
 The data are available at: <br />
@@ -79,10 +70,8 @@ extend.<br />
 <br />
 Please send your questions and comments to Roger Grosse (rgrosse@mit.edu).<br />
 <br />
-<br />
-<br />
+
 _________________________________ Installation __________________________________<br />
-<br />
 To run the code, you will need Python as well as the following<br />
 Python libraries:<br />
 - NumPy<br />
@@ -91,5 +80,4 @@ Python libraries:<br />
 - PyAMG<br />
 <br />
 __________________________________________________________________________________<br />
-<br />
 <br />
