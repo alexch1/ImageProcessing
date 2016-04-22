@@ -1,48 +1,48 @@
 # ImageProcessing_ReflectionRemoval
 ##### Hoding my CA scripts
 
-*****************************************************************************************<br />
-**                                         README                                        <br />
-*****************************************************************************************<br />
-**                                                                                       <br />
-**	NOTE 1: Pls make sure that all the '.m' scripts are under a same directory.          <br />
-**	NOTE 2: You can add your own testing images under the path of /test_images;          <br />
-**              Please classify them into two classes, i.e., images for intrinsic        <br />
-**              images decomposition purpose (under /test_images/intrinsic_images,      <br />
-**              and should be 'png’ format) and images for reflection removal purpose     <br />
-**              (under /test_images/reflection_removal, and should be 'jpg' format).    <br />
-**	NOTE 3:  To use MIT’s Local Mean Square Error (LMSE)[5] method to test the          <br />
-**              the 'quality' of output images, please refer the ATTACHMENT.              <br />
-**                                                                                          <br />
-**	RUN THE CODE:                                                                           <br />
-**	1) Open 'main.m' in MATLAB;                                                                 <br />
-**	2) Change the value of lambda which control the smoothness if you want; <br />
-**	3) Run 'main.m', wait for 'ALL DONE' shown in the command window;<br />
-**	4) Check the detailed results in 'results_log.txt' & 'results_images' folder.<br />
-**<br />
-**<br />
-**	Copyrights info:<br />
-**	1) This code is written by myself and it is adapted from algorithms published<br />
-**   	   in "Single Image Layer Separation using Relative Smoothness" (Y. Li et al.,<br />
-**   	   CVPR 2014) and "Ground truth dataset and baseline evaluations for intrinsic<br />
-**   	   image algorithms" (R. Grosse et al., ICCV 2009).<br />
-**	2) Some testing images under "test_images" folder are copied from MIT intrinsic <br />
-**   	   image dataset and from the testing dataset of " Exploiting Reflection Change <br />
-**   	   for Automatic Reflection Removal" (Y. Li et al., ICCV 2013).<br />
-**<br />
-**<br />
-**                                                                              CHI JI<br />
-**                                                                  E0001795@u.nus.edu<br />
-**<br />
-*****************************************************************************************<br />
-*****************************************************************************************<br />
+_________________________________________________________________________________________<br />
+                                         README                                        <br />
+_________________________________________________________________________________________<br />
+                                                                                       <br />
+	NOTE 1: Pls make sure that all the '.m' scripts are under a same directory.          <br />
+	NOTE 2: You can add your own testing images under the path of /test_images;          <br />
+              Please classify them into two classes, i.e., images for intrinsic        <br />
+              images decomposition purpose (under /test_images/intrinsic_images,      <br />
+              and should be 'png’ format) and images for reflection removal purpose     <br />
+              (under /test_images/reflection_removal, and should be 'jpg' format).    <br />
+	NOTE 3:  To use MIT’s Local Mean Square Error (LMSE)[5] method to test the          <br />
+              the 'quality' of output images, please refer the ATTACHMENT.              <br />
+                                                                                          <br />
+	RUN THE CODE:                                                                           <br />
+	- 1) Open 'main.m' in MATLAB;                                                                 <br />
+	- 2) Change the value of lambda which control the smoothness if you want; <br />
+	- 3) Run 'main.m', wait for 'ALL DONE' shown in the command window;<br />
+	- 4) Check the detailed results in 'results_log.txt' & 'results_images' folder.<br />
+<br />
+<br />
+  Copyrights info:<br />
+  1) This code is written by myself and it is adapted from algorithms published<br />
+   	   in "Single Image Layer Separation using Relative Smoothness" (Y. Li et al.,<br />
+   	   CVPR 2014) and "Ground truth dataset and baseline evaluations for intrinsic<br />
+   	   image algorithms" (R. Grosse et al., ICCV 2009).<br />
+	2) Some testing images under "test_images" folder are copied from MIT intrinsic <br />
+   	   image dataset and from the testing dataset of " Exploiting Reflection Change <br />
+   	   for Automatic Reflection Removal" (Y. Li et al., ICCV 2013).<br />
+<br />
+<br />
+                                                                              CHI JI<br />
+                                                                  E0001795@u.nus.edu<br />
+<br />
+_________________________________________________________________________________________<br />
+_________________________________________________________________________________________<br />
 <br />
 <br />
 <br />
 <br />
 <br />
                                       ATTACHMENT<br />
-*****************************************************************************************<br />
+_________________________________________________________________________________________<br />
 <br />
 NOTE: Copied from MIT intrinsic image dataset.<br />
 <br />
@@ -81,15 +81,15 @@ Please send your questions and comments to Roger Grosse (rgrosse@mit.edu).<br />
 <br />
 <br />
 <br />
-********************************* Installation *********************************<br />
+_________________________________ Installation __________________________________<br />
 <br />
 To run the code, you will need Python as well as the following<br />
 Python libraries:<br />
-* NumPy<br />
-* SciPy<br />
-* PyPNG<br />
-* PyAMG<br />
+- NumPy<br />
+- SciPy<br />
+- PyPNG<br />
+- PyAMG<br />
 <br />
-**********************************************************************************<br />
+__________________________________________________________________________________<br />
 <br />
 <br />
